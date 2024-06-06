@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use(cookieParser());
 
 app.get('/',function(req,res,next){
-    res.send('hello');
+    res.render('index');
 });
 
 app.listen(3000)
