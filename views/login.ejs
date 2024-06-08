@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body class="bg-black">
+        <form class="flex flex-col items-center justify-center gap-5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" action="/login" method="post">
+            <input class="flex px-2 py-1" type="text" placeholder="name" name="username">
+            <input class="flex px-2 py-1" type="email" placeholder="email" name="email">
+            <input class="flex px-2 py-1" type="password" placeholder="password" name="password">
+            
+            <button type="submit" class="uppercase rounded-xl font-semibold bg-white flex px-10 py-2 mt-1">Login</button>
+        </form>
+</body>
+</html>
